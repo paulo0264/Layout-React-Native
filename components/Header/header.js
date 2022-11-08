@@ -5,7 +5,7 @@ import { StyleSheet, Text, View } from 'react-native'
 export default function Header() {
     return(
       <View style={styles.container}>
-        <Text style={styles.texto}>Clica</Text>
+        <Text style={styles.texto}></Text>
       </View>
     );
 }
@@ -13,13 +13,11 @@ export default function Header() {
 
 const styles = StyleSheet.create({
   container: {
-    display: "flex",
     justifyContent: "center",
     backgroundColor: "black",
-    width: "100%",
+    width: '90%',
     height: 50,
     margin: 10,
-    borderRadius: 8,
   },
 
   texto: {
